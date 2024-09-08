@@ -41,7 +41,7 @@ while True:
         break
 
     # Perform detection
-    results = model(img, stream=True)
+    results = model(img, stream=True, verbose = False)
 
     # Iterate through results
     for r in results:
